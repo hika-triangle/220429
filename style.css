@@ -11,7 +11,7 @@ body #header p {
     grid-column: 0 / 1;
 
     color: rgb(68, 39, 14);
-    font-size: 400%;
+    font-size: 500%;
 }
 
 body #explain p {
