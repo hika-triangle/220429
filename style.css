@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(211, 228, 201);
+    font-size: 100%;
+}
+
+
+body #header p {
+    font-family: 'Whisper', cursive;
+    font-weight: bold;
+    letter-spacing: 10px;
+    grid-column: 0 / 1;
+
+    color: rgb(68, 39, 14);
+    font-size: 400%;
+}
+
+
+img {max-width:100%}
+
+
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid2 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+body #container2 {
+    font-family: 'Whisper', cursive;
+    letter-spacing: 10px;
+    font-size: 400%;
+    text-align:center;
+    padding:50px 50px;
+    color: rgb(68, 39, 14);
+
+}
+
+
+body #container3 {
+    font-family: 'Whisper', cursive;
+    letter-spacing: 5px;
+    font-size: 110%;
+    text-align:center;
+    padding:100px 30px;
+    color: rgb(68, 39, 14);
+
+}
+
+
+
+
+
+
+@media (max-width: 750px) {
+
+    /*スマホ適応させるCSS*/
+    body {
+        font-size: 85%;
+    }
+
+
+    .grid {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+    }
+
+    .grid2 {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
