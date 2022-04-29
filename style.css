@@ -14,6 +14,15 @@ body #header p {
     font-size: 400%;
 }
 
+body #explain p {
+    font-family: 'Klee One', cursive;
+    letter-spacing: 5px;
+    text-align:center;
+    padding-top: 50px;
+    color: rgb(68, 39, 14);
+    font-size: 120%;
+}
+
 
 img {max-width:100%}
 
@@ -44,9 +53,9 @@ body #container2 {
 
 
 body #container3 {
-    font-family: 'Whisper', cursive;
+    font-family: 'Klee One', cursive;
     letter-spacing: 5px;
-    font-size: 110%;
+    font-size: 120%;
     text-align:center;
     padding:100px 30px;
     color: rgb(68, 39, 14);
